@@ -1,0 +1,210 @@
+import images from "../Constants/images";
+
+export const productData = [
+    {
+      img: images.cherries,
+      name: 'Fresh Cherries',
+      discount: '€34',
+      price: '€20',
+      unit: 'kg',
+      quantity: '0',
+    },
+    {
+      img: images.cabbage,
+      name: 'Chinese cabbage',
+      discount: '€34',
+      price: '€10',
+      unit: 'kg',
+      quantity: '0',
+    },
+    {
+      img: images.egg,
+      name: 'Eggs ',
+      discount: '€30',
+      price: '€8',
+      unit: 'dz',
+      quantity: '0',
+    },
+  ];
+
+
+  export const favouritesData = [
+    {
+      img: images.mango,
+      name: 'Fresh Mango',
+      discount: '€4.56',
+      price: '€2.35',
+      unit: 'pcs',
+      quantity: '0',
+    },
+
+    {
+      img: images.parsley,
+      name: 'Fresh Parsley',
+      discount: '€34',
+      price: '€10',
+      unit: 'kg',
+      quantity: '0',
+    },
+    {
+      img: images.egg,
+      name: 'Eggs ',
+      discount: '€30',
+      price: '€8',
+      unit: 'dz',
+      quantity: '0',
+    },
+    {
+      img: images.apple,
+      name: 'Apples',
+      discount: '€30',
+      price: '€8',
+      unit: 'kg',
+      quantity: '0',
+    },
+    {
+      img: images.cabbage,
+      name: 'Chinese Cabbage',
+      discount: '€20',
+      price: '€80',
+      unit: 'kg',
+      quantity: '0',
+    },
+    {
+      img: images.orange,
+      name: 'Orange',
+      discount: '€20',
+      price: '€80',
+      unit: 'pcs',
+      quantity: '0',
+    },
+    {
+      img: images.pattao,
+      name: 'Potato',
+      discount: '€20',
+      price: '€80',
+      unit: 'pcs',
+      quantity: '0',
+    },
+  ];
+
+
+  export const orderHistoryProductData = [
+    {
+      addons: null,
+      created_at: '2025-05-09 08:37:52',
+      deleted_at: '0000-00-00 00:00:00',
+      description: 'Test',
+      discounted_price: '25',
+      entity_branch_id: null,
+      entity_id: '1',
+      id: '39',
+      image:
+        'https://dorianfruitsandveg.droidor.com/assets/uploads/images_1.jpg',
+      name: 'Mango',
+      price: '15',
+      product_category_id: '15',
+      sequence: '1',
+      show_hide_status: null,
+      status: '1',
+      updated_at: '2025-05-09 08:37:52',
+    },
+
+    {
+      addons: null,
+      created_at: '2025-05-09 08:37:52',
+      deleted_at: '0000-00-00 00:00:00',
+      description: 'Test',
+      discounted_price: '25',
+      entity_branch_id: null,
+      entity_id: '1',
+      id: '40',
+      image:
+        'https://dorianfruitsandveg.droidor.com/assets/uploads/images_1.jpg',
+      name: 'Mango',
+      price: '15',
+      product_category_id: '15',
+      sequence: '1',
+      show_hide_status: null,
+      status: '1',
+      updated_at: '2025-05-09 08:37:52',
+    },
+    {
+      addons: null,
+      created_at: '2025-05-09 08:37:52',
+      deleted_at: '0000-00-00 00:00:00',
+      description: 'Test',
+      discounted_price: '25',
+      entity_branch_id: null,
+      entity_id: '1',
+      id: '41',
+      image:
+        'https://dorianfruitsandveg.droidor.com/assets/uploads/images_1.jpg',
+      name: 'Mango',
+      price: '15',
+      product_category_id: '15',
+      sequence: '1',
+      show_hide_status: null,
+      status: '1',
+      updated_at: '2025-05-09 08:37:52',
+    },
+    {
+        addons: null,
+        created_at: '2025-05-09 08:37:52',
+        deleted_at: '0000-00-00 00:00:00',
+        description: 'Test',
+        discounted_price: '25',
+        entity_branch_id: null,
+        entity_id: '1',
+        id: '42',
+        image:
+          'https://dorianfruitsandveg.droidor.com/assets/uploads/images_1.jpg',
+        name: 'Mango',
+        price: '15',
+        product_category_id: '15',
+        sequence: '1',
+        show_hide_status: null,
+        status: '1',
+        updated_at: '2025-05-09 08:37:52',
+      },
+
+       {
+      addons: null,
+      created_at: '2025-05-09 08:37:52',
+      deleted_at: '0000-00-00 00:00:00',
+      description: 'Test',
+      discounted_price: '25',
+      entity_branch_id: null,
+      entity_id: '1',
+      id: '43',
+      image:
+        'https://dorianfruitsandveg.droidor.com/assets/uploads/images_1.jpg',
+      name: 'Mango',
+      price: '15',
+      product_category_id: '15',
+      sequence: '1',
+      show_hide_status: null,
+      status: '1',
+      updated_at: '2025-05-09 08:37:52',
+    },
+  ];
+  export const cartData = [
+    {
+      img: images.mango,
+      name: 'Fresh Mango',
+      discount: '€4.56',
+      price: '€2.35',
+      unit: 'pcs',
+      quantity: '3',
+    },
+
+    {
+      img: images.parsley,
+      name: 'Fresh Parsley',
+      discount: '€34',
+      price: '€10',
+      unit: 'kg',
+      quantity: '4',
+    },
+  
+  ];
